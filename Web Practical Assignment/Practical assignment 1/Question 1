@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rungta University</title>
+</head>
+
+<body>
+
+    <h1>Welcome to Rungta University</h1>
+
+    <a href="https://rungta.ac.in/" target="_blank">
+        <img src="img.png" alt="Rungta University Campus" width="600">
+    </a>
+
+</body>
+
+</html>

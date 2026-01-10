@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BCA Student Table</title>
+</head>
+
+<body>
+
+    <h2>BCA Student Records</h2>
+
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th rowspan="2">Course</th>
+            <th rowspan="2">Roll No</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Marks</th>
+            <th rowspan="2">Grade</th>
+        </tr>
+        <tr>
+            <th>Theory</th>
+            <th>Practical</th>
+        </tr>
+
+        <tr>
+            <td rowspan="5">BCA</td>
+            <td>101</td>
+            <td>Amit Kumar</td>
+            <td>78</td>
+            <td>82</td>
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Neha Singh</td>
+            <td>85</td>
+            <td>88</td>
+            <td>A+</td>
+        </tr>
+
+        <tr>
+            <td>103</td>
+            <td>Rahul Verma</td>
+            <td>69</td>
+            <td>72</td>
+            <td>B+</td>
+        </tr>
+
+        <tr>
+            <td>104</td>
+            <td>Pooja Sharma</td>
+            <td>74</td>
+            <td>76</td>
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <td>105</td>
+            <td>Vikas Patel</td>
+            <td>61</td>
+            <td>65</td>
+            <td>B</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

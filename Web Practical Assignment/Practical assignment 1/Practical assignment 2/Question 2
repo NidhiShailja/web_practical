@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox container</title>
+    <style>
+        /*Flexbox container */
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+    
+        .small-box {
+            width: 80px;
+            height: 80px;
+            background-color: #90caf9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+    
+        /* Media Query */
+        @media (max-width: 600px) {
+            .flex-container {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Q2: Flexbox with Media Query</h2>
+    <div class="flex-container">
+        <div class="small-box">A</div>
+        <div class="small-box">B</div>
+        <div class="small-box">C</div>
+    </div>
+
+</body>
+</html>

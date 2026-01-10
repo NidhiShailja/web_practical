@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Remove Duplicate Values</title>
+</head>
+
+<body>
+
+    <h2>Remove Duplicate Values from Array</h2>
+
+    <script>
+        const arr = [1, 2, 3, 2, 4, 5, 1, 6];
+
+        const uniqueArray = [];
+
+        for (let i = 0; i < arr.length; i++) {
+            if (!uniqueArray.includes(arr[i])) {
+                uniqueArray.push(arr[i]);
+            }
+        }
+
+        document.write("Original Array: " + arr + "<br>");
+        document.write("Array After Removing Duplicates: " + uniqueArray);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Arrow Function isEven</title>
+</head>
+
+<body>
+
+    <h2>Check Even Number</h2>
+
+    <script>
+        const isEven = (num) => num % 2 === 0;
+
+        let number = 10;
+
+        document.write("Number: " + number + "<br>");
+        document.write("Is Even? " + isEven(number));
+    </script>
+
+</body>
+
+</html>

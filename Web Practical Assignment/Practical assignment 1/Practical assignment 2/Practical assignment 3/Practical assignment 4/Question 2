@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Multiline String</title>
+</head>
+
+<body>
+
+    <h2>Multiline String using Template Literals</h2>
+
+    <script>
+        const message = `
+This is line one
+This is line two
+This is line three
+        `;
+
+        document.write("<pre>" + message + "</pre>");
+    </script>
+
+</body>
+
+</html>
